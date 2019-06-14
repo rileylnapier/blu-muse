@@ -22,7 +22,9 @@
     <hr />
     <script type="text/javascript">
       fetch("/.netlify/functions/hello-world").then(response => {
-        document.body.innerHTML = response.text();
+        response.text().then(responseText => {
+          document.body.innerHTML = responseText;
+        });
       });
     </script>
   </body>
