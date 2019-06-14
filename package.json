@@ -1,0 +1,20 @@
+{
+  "name": "blu-muse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"Fake Build\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rileylnapier/blu-muse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rileylnapier/blu-muse/issues"
+  },
+  "homepage": "https://github.com/rileylnapier/blu-muse#readme"
+}
